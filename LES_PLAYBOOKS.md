@@ -31,7 +31,7 @@ vers l'autre host.
 
 ### Inventaire dynamique
 Faire un fork de ce repo  
-```https://github.com/crunchy-devops/ansible-dynamic-repository.git```
+```https://github.com/crunchy-devops/ansible-dynamic-inventory.git```
 dans votre repo github personnel
 et faire un git clone, dans votre home directory, et dans la vm ansible controller   
 Changer le fichier get_inventory.py   
@@ -58,7 +58,7 @@ Dans votre home directory faire un ```vi token``` et copier votre
 token.  
 Toujours sous le prompt venv
 faire ```pip3 install requests``` et 
-```ansible-playbook -i ../inventory_children ansible_create_module.yml```
+```ansible-playbook -i inventory_children ansible_create_module.yml```
 ## Les Roles
 
 ### Mettre le precedement playbook dans un role 
